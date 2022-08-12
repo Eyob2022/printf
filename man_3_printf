@@ -1,0 +1,43 @@
+/**I'm not going anywhere. You can print that wherever you want to. I'm here and I'm a Spur for life
+**/
+
+#include "main.h"
+
+int main(void)
+
+{
+
+	char *street = "Mission St.";
+
+	char *city = "San Francisco",
+
+	char *state = "CA";
+
+	printf("%d %s, %s, %s, %d\\n", 972, street, city, state, 94103);
+
+}
+
+#include "main.h"
+
+int main(void)
+
+{
+
+	_printf("%.2d + %.2d = %+.2d\\n", 1, 2, 1 + 2);
+
+	_printf("%d - %d = %+d\\n", 10, 20, 10 - 20);
+}
+
+#include "main.h"
+
+#include <limits.h>
+
+int main(void)
+
+{
+
+	_printf("% -30ld -> LONG_MAX\\n", LONG_MAX);
+
+	_printf("%-30ld -> LONG_MIN\\n", LONG_MIN);
+
+}
